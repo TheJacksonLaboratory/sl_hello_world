@@ -6,7 +6,7 @@ From: centos:7
     yum install -y python3
     yum install -y git
 
-    git clone #need to finish this!
+    git clone https://github.com/TheJacksonLaboratory/sl_hello_world.git 
 
 %runscript
-    python3 #need to finish this
+    python3 ./sl_hello_world/hello_world.py
