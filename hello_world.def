@@ -1,0 +1,12 @@
+Bootstrap:docker
+From: centos:7
+
+%post
+    yum install -y epel-release
+    yum install -y python3
+    yum install -y git
+
+    git clone #need to finish this!
+
+%runscript
+    python3 #need to finish this
